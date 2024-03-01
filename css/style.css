@@ -31,8 +31,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  margin-top: 2rem;
+  margin:2rem 0;
 }
 
 main {
@@ -83,6 +82,6 @@ p {
 
 @keyframes spin {
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
