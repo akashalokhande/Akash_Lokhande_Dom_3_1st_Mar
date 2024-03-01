@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./css/download.png" type="image/x-icon">
+  </head>
+  <body>
+       <main>
+      <div class="container">
+        <div class="fetch">
+          <h1>Weather Api</h1>
+          <button id="fetchDataBtn">Fetch Data</button>
+          <div id="spinner" class="spinner" style="display: none;"></div>
+          <p id="lat-long"></p>
+        </div>
+      </div>
+      <div id="map">
+      </div>
+      <div id="weatherData"></div>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
